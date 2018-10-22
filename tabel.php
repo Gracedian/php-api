@@ -1,10 +1,8 @@
 <html>
 <head>
   <title>Menampilkan data dari database ke dalam bentuk tabel</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div class="container">
     <h2><center>DATA PESERTA</center></h2>
     <table class="tabel" align="center">
