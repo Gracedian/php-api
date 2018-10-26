@@ -8,7 +8,7 @@ $fullname = $_POST['fullname'];
 $sql_insert="INSERT INTO users VALUES ('$id','$username','$password','$level','$fullname')";
 mysqli_query($connect_db,$sql_insert)or die(mysqli_error($connect_db));
 echo '<script>
-alert("Data Berhasil Disimpan");
-location="tabel.php?"
+alert("Datamu Berhasil Diedit");
+location="index.php?"
 </script>';
 ?>
